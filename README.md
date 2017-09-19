@@ -9,6 +9,8 @@ NextUp, links to previous game design repos on readme
 
 Come up with all new Pygame lessons, in case of repeat students.  
 
+Consider Hyperpad and Codea.
+
 link to repo 1  
 link to repo 2  
 link to repo 3  
@@ -19,7 +21,7 @@ link to repo 7
 link to repo 8    
 
 
-### Computer Science  
+### Intro to Computer Science  
 
 Follow closely to normal Intro to CS curriculum --Make relations to what was learned on Monday during Game Design, or as a foreshadow for the following Monday.  
 
@@ -27,7 +29,12 @@ Follow closely to normal Intro to CS curriculum --Make relations to what was lea
 
 ## Tuesdays  
 
+### Game Design  
+
 *Use links from above*  
 
 Come up with all new Pygame lessons, in case of repeat students.  
+
+Consider Hyperpad and Codea.
+
 
