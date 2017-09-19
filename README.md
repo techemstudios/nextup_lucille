@@ -1,6 +1,7 @@
 # NextUp Lucille Brown
 NextUp, links to previous game design repos on readme
 
+***  
 
 ## Mondays & Wednesdays  
 
