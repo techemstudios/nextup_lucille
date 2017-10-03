@@ -8,7 +8,8 @@
 * Experience  
   - Any programming/coding experience?  
 
-### Objectives - What We'll Learn  
+### Objectives  
+##### What We'll Learn  
 
 #### Core Computer Science Concepts  
 
@@ -155,6 +156,17 @@ There are tons of different programming languages out there. We will learn how t
 | Classes      |  
 
 ***  
+
+### Getting Started with Chromebooks (trusty)  
+
+```bash  
+mkdir your_name
+geany helloworld.py
+```  
+
+#### HelloWorld.py  
+
+Go over data types: strings, integers (INT), floats (FLOAT), boolean (BOOL). *see notes.py*  
 
 ### Computer System Layers    
 #### Abstraction  
