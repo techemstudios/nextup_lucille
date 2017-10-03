@@ -59,11 +59,12 @@ Take a problem that at first, may seem overwhelming, or not "attackable" with a 
 Example, Clean the Whole House problem.  
 
 ### What is Computer Science  
-study of...  
+
+Not just the study of computers. Really, it is the study of what can be computed. A major part of computer science is to design a solution, or step-by-step process for reaching a goal, design an algorithm, much like designing a recipe. And more...  
 
 ### What are Computers?  
 
-Computers are devices for manipulating information we can put info into a computer, and it can transform the info into new, useful forms. Computer can then output or display the information.  
+Computers today, are devices that store and manipulate information and can do this because of programs. When we put info into a computer, it transforms the info into new, useful forms. Computer can then output or display the information we put into it.  
 
 ### Quick Computer History  
 
@@ -149,10 +150,34 @@ There are tons of different programming languages out there. We will learn how t
 | Statements   |
 | Functions    |
 | Loops        |
-| Conditionals |
+| Conditions   |
 | Objects      |
 | Classes      |  
 
+***  
+
+### Computer System Layers    
+#### Abstraction  
+
+[Layers of Computer System Activity](https://github.com/techemstudios/nextup_lucille/blob/master/mini_lessons/computer_system_layers.pdf)  
+
+*15 - 20 min*  
+
+When we are working in one layer, we do not need to concern ourselves with the information in the surrounding layers. This way, we can just focus on what needs to be done in the moment. Think of abstraction as a mental model; a way to think about something. Have the unnecessary details hidden, so we can leave only the information we need to complete our goal.  
+
+Abstraction Examples:  
+
+* A Person Driving a Car  
+  - The only thing they need to focus on is the road ahead.
+  - It is unnecessary to worry about details of how the engine or electronics of the car work.
+
+* Fast Food Restaurant  
+  - At many restaurants, the names of meals have corresponding numbers.
+  - The food prep has been trained to recognize the meal number, not worry about the full name.  
+
+### Logic Gates  
+
+logic gates here.  
 
 ### Write Code like you Write a Story  
 
