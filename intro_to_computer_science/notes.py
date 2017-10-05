@@ -38,3 +38,10 @@ Class notes for Lucille Brown Mondays - Intro to Computer Science
           a = int(raw_input("give me a number"))
           b = int(raw_input("give me another number"))
           print a + b
+          
+# 10/4
+  # Had students from Monday's class as well as new ones
+  # quick review of monday's content
+  # each created new folders
+  # Started to create simple interactive calculator python program
+    # ended with code blocks: 1st condition statment (if user enetered "+")
