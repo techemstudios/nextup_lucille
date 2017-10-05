@@ -73,8 +73,6 @@ Computers today, are devices that store and manipulate information and can do th
 
 How far we've come. Early computers were tools (or mechanical devices) people used to help them calculate math problems. A modern computer is a device that can be programmed to perform a task. From Talley Sticks, to the Babbage Machine --end with Ada Lovelace, recognized as the first computer programmer.  
 
-Difference between hardware and software.   
-
 ### What is a Computer Program?  
 
 *5 min*  
