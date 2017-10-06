@@ -204,7 +204,15 @@ Finish the calculator program by adding multi-way decision pattern, in other wor
 
 [One way to finish a basic calculator program](https://github.com/techemstudios/nextup_lucille/blob/master/intro_to_computer_science/python_code/calculator.py)  
 
-###
+### Random Number Game  
+
+#### Binary Search Tree  
+
+How a computer efficiently searches an ordered (sorted) list, ordered from lowest to highest. Think about the random number game. A person picks a number between a range of numbers and asks you to guess the number they picked. Each time the you guess, the person will tell you if your guess is higher or lower, compared to the number they picked.  
+
+Let's say the person picked a number between 1 and 100. Our logical first guess could be 50. If the person told you the number is higher, then the range of possible numbers is cut in half, 50-100. If you guess 75 (the middle of the range), you once again narrow the range of possible numbers. This is a systematic search approach called *binary search*. We know that binary means two. Looking back, each guess you made divided the remaining numbers into two parts.
+
+
 
 
 

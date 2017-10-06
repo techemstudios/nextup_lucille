@@ -13,7 +13,8 @@ def main():
                               "\n+ for addition" +
                               "\n- for subtraction" +
                               "\n* for multiplication" +
-                              "\n/ for division\n"
+                              "\n/ for division" +
+                              "\n% for remainder\n"
                               )
         
         if operation == "+":
@@ -28,14 +29,17 @@ def main():
         elif operation == "/":
             answer = number1 / number2
 
+        elif operation == "%":
+            answer = number1 % number2
+
         print answer
 
         again = raw_input("Would you like to calculate another pair of numbers? y/n: ")
         if again == "y":
             main()
         elif again == "n":
+            raw_input("\n\nPress <enter> to exit ")
             break
 
 main()
 
-raw_input("\n\nPress <enter> to exit ")
