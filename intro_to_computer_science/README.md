@@ -137,6 +137,8 @@ Binary numbers use a Base 2 system, two digits:
 
 An all class activity to visually see how the binary number system operates by practicing a method that converts decimal numbers to binary. Ask for five volunteers. Give each volunteer a big binary flashcard (dark side of cards facing the class). Arrange the students to be in correct place value order. Write the number one on the board, use the cards and input from the class to have each volunteer flip the correct cards (turn "ON") to collectively show the number, one in binary. Do this for the numbers, 2 - 10. The class should progressively get quicker.  
 
+## Day One  
+
 ### Python  
 
 There are tons of different programming languages out there. We will learn how to write code in the Python programming language, an easy to read, understand and write language.  
@@ -165,6 +167,40 @@ geany helloworld.py
 #### HelloWorld.py  
 
 Go over data types: strings, integers (INT), floats (FLOAT), boolean (BOOL). *see notes.py*  
+
+## Day Two  
+
+Review content from day one. Explain how to handle user input by starting to create a simple calculator program. Before typing any code, ask what we want this program to do:  
+
+1) We want to ask a user for two numbers and we want to store those numbers in a variable, so we can later use them.  
+
+2) We need to get input from the user about which operation they want to perform on the two numbers.
+
+3) We'll need to check their text input to what operation symbol it matches with.
+
+4) Finally, we want to return the answer to the user.  
+
+```python  
+number1 = int(raw_input("Give me a number: "))
+number2 = int(raw_input("Give me another number: "))
+# with the raw_input() function, Python automatically thinks the text
+# from the user is a string. We add int() to convert the string to an integer
+# This will allow us to "mathematically" add the two numbers given by the user.
+
+operation raw_input("What operation would you like me to perform?")
+
+# our first condition statement (if this, then this)
+if operation == "+":
+  answer = number1 + number2
+
+print(answer)
+```  
+
+## Day Three  
+
+Finish the calculator program by adding multi-way decision pattern, in other words `if-elif-else`.  
+
+
 
 ### Computer System Layers    
 #### Abstraction  
