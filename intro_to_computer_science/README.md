@@ -210,9 +210,58 @@ Finish the calculator program by adding multi-way decision pattern, in other wor
 
 How a computer efficiently searches an ordered (sorted) list, ordered from lowest to highest. Think about the random number game. A person picks a number between a range of numbers and asks you to guess the number they picked. Each time the you guess, the person will tell you if your guess is higher or lower, compared to the number they picked.  
 
-Let's say the person picked a number between 1 and 100. Our logical first guess could be 50. If the person told you the number is higher, then the range of possible numbers is cut in half, 50-100. If you guess 75 (the middle of the range), you once again narrow the range of possible numbers. This is a systematic search approach called *binary search*. We know that binary means two. Looking back, each guess you made divided the remaining numbers into two parts.
+Let's say the person picked a number between 1 and 100. Our logical first guess could be 50. If the person told you the number is higher, then the range of possible numbers is cut in half, 50-100. If you guess 75 (the middle of the range), you once again narrow the range of possible numbers. This is a systematic search approach called *binary search*. We know that binary means two. Looking back, each guess you made divided the remaining numbers into two parts.  
 
+Let's make the random number game a program in Python. Just as with the calculator program, we'll start with a systematic approach to developing our simple program. Determine the specifications ("specs" for short): 1) Have the computer choose a random number from a range of numbers, and store the number in a variable. 2) Clearly inform the user what the computer is asking of them 3) Determine a decision based on the user's input. That's it.  
 
+#### Program Design  
+
+Translate the specs into program form.  
+
+```python  
+# In order to use random methods, we need to import the random module
+import random
+
+# Spec #1:
+# Create a variable whos value is a randomly chosen number, from a range a numbers
+number = random.randint(1, 100)
+
+# Spec #2:
+print("I'm thinking of a number between 1-100")
+# Create a variable whose value is the number guessed by the user
+guess = int(raw_input("Guess a number between 1-100: "))
+
+# Spec #3:
+# Set up a few condition statements to compare the user's guess to the randomly picked number
+if guess > number:
+  # what happens when the user's guess is higher than number picked
+  print("Your guess is too high!")
+elif guess < number:
+  # What happens when the user's guess is lower than the number picked
+  print("Your guess is too low!")
+elif guess == number:
+  # what happens when the user guesses the number picked
+  print("You guessed correctly!")
+```  
+
+Our next step in our development process is to test the program. Our program works; however, if the user guesses too high or too low, the program ends. We can easily fix this by inserting a `while` loop. First, we'll add a flag,  `GameRunning` (or call it anything you want). This will act as a signal to the program which checks whether or not the game should keep running. As long as the flag is set to `True`, the program will continue; otherwise, the program will stop running when we set the flag's value to `False`. You can relate how a while loop works to the statement, "as long as...".  
+
+```python
+GameRunning = True
+while True:
+    guess = int(raw_input("Guess a number between 1-100: "))
+
+    if guess > number:
+        print("Your guess is too high!")
+    elif  guess < number:
+        print("Your guess is too low!")
+    elif guess == number:
+        print("You guessed correctly!")
+        # Since the user guessed correctly, set the flag to False
+        GameRunning = False
+        raw_input("\n\nPress enter key to exit ")
+        exit()
+```  
 
 
 

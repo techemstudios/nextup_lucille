@@ -18,6 +18,7 @@ while True:
         print("Your guess is too low!")
     elif guess == number:
         print("You guessed correctly!")
+        GameRunning = False
         raw_input("\n\nPress enter key to exit ")
         exit()
  
