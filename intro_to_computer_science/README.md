@@ -198,7 +198,13 @@ print(answer)
 
 ## Day Three  
 
+### Basic Calculator Program  
+
 Finish the calculator program by adding multi-way decision pattern, in other words `if-elif-else`.  
+
+[One way to finish a basic calculator program](https://github.com/techemstudios/nextup_lucille/blob/master/intro_to_computer_science/python_code/calculator.py)  
+
+###
 
 
 
