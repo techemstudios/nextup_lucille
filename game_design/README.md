@@ -4,11 +4,13 @@ May be worthwhile to consider Hyperpad/Design Thinking lessons. In general, stud
 
 Initial outline will hold a series of pygame walkthroughs, for individual arcade-style games written in Python; and general coding in Python walkthroughs. The [Python code walkthroughs](https://github.com/techemstudios/nextup_lucille/tree/master/game_design/python_walkthroughs) will help students understand core concepts in programming: Data Types, variables, loops, conditionals, functions, object-oriented design/programming, using modules/dependencies. All of which, and more are found in games developed with pygame.  
 
-## Links to Pygame Walkthroughs  
+## Pygame Walkthroughs  
 
 The handouts for the following Pygame walkthroughs can be found in the directory, [pygame_walkthroughs](https://github.com/techemstudios/nextup_lucille/tree/master/game_design/pygame_walkthroughs). In each repo, there is a python file with the name of game, where sections of code are missing (highlighted with comments to outline each section and what the section adds to the game). Intructors will walkthrough the missing code, explaining what to add and what the section(s) do for the game. Each repo has a source.py, which has the complete code for the game and can be used for referenece by the instructor if the student(s) code errors are to difficult to get past.  
 
-### Links to Pygame Repositories  
+### Pygame Repositories  
+#### Complemented with Pygame Walkthroughs (Above)  
+
 *Instructions*: clone the repo before class onto each chromebook/each student's directory. Use the printed out pdfs that walk through the missing sections of code for each. Print more if necessary from the "pygame_walkthroughs" directory (link above).  
 
 * [wormy](https://github.com/joetechem/wormy_rasp)  
