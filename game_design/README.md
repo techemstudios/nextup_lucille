@@ -1,4 +1,22 @@
-# Intro to Computer Science: Game Design - NextUp  
+# Lucille Brown: Game Design - NextUp   
+
+May be worthwhile to consider Hyperpad/Design Thinking lessons. In general, students want quick results and have a difficult time typing.  
+
+Initial outline will hold a series of pygame walkthroughs, for individual arcade-style games written in Python; and general coding in Python walkthroughs. The [Python code walkthroughs](https://github.com/techemstudios/nextup_lucille/tree/master/game_design/python_walkthroughs) will help students understand core concepts in programming: Data Types, variables, loops, conditionals, functions, object-oriented design/programming, using modules/dependencies. All of which, and more are found in games developed with pygame.  
+
+## Links to Pygame Walkthroughs  
+
+The handouts for the following Pygame walkthroughs can be found in the directory, [pygame_walkthroughs](https://github.com/techemstudios/nextup_lucille/tree/master/game_design/pygame_walkthroughs). In each repo, there is a python file with the name of game, where sections of code are missing (highlighted with comments to outline each section and what the section adds to the game). Intructors will walkthrough the missing code, explaining what to add and what the section(s) do for the game. Each repo has a source.py, which has the complete code for the game and can be used for referenece by the instructor if the student(s) code errors are to difficult to get past.  
+
+### Links to Pygame Repositories  
+*Instructions*: clone the repo before class onto each chromebook/each student's directory. Use the printed out pdfs that walk through the missing sections of code for each. Print more if necessary from the "pygame_walkthroughs" directory (link above).  
+
+* [wormy](https://github.com/joetechem/wormy_rasp)  
+* [pong](https://github.com/joetechem/pong/tree/master/pong-pygame/pong)
+* [frogger](https://github.com/joetechem/frogger)
+* [pacman](https://github.com/joetechem/pacman-python-mirror) 
+* [spaceshooter](https://github.com/joetechem/pygame_tutorials) 
+* [alien invasion](https://github.com/joetechem/alien_invasion/tree/master/alien_invade)
 
 ### Introductions
 
@@ -6,10 +24,59 @@
 * Age
 * Grade
 * Experience
-  - Any programming/coding experience?
+  - Any programming/coding experience?  
+  
+*note* below is a simple Hello World program conducted with Pygame. Previously, this exercise has not been carried out in previous classes, but will be tested during the Fall 2017 session.  
 
-### Objectives
-##### What We'll Learn
+# OOP  
+
+Dice game, before pygame intro?  
+
+## Starting Pygame  
+
+Pygame is part of the Python framework including tools to create video games. What does Pygame have, that allows us to do create games? It is built on top of the Simple Direct Media Layer (SDL), a C framework which gives access to a range of graphics, sounds, keyboard handlers, and other input devices on various operating systems including Linux, MAC OS X, and Windows. -*Instant Pygame for Python Game Development, Ivan Idris*  
+
+### Hello World! (Pygame Style)  
+
+* Objectives  
+  - Main Game Loop  
+  - Render Text  
+  - Surface Object  
+  - Quit Event  
+
+#### Dependencies  
+
+#### Initialization  
+
+#### The Main Game Loop  
+```python    
+# importing dependencies
+import pygame, sys
+from pygame.locals import *
+
+# initialize
+pygame.init()
+
+# window width, height --> units = pixels
+screen = pygame.display.set_mode((400, 300))
+
+# window caption
+pygame.display.set_caption('Hello World!')
+
+# the main game loop
+while True:
+    sys_font = pygame.font.SysFont("None", 19)
+    rendered = sys_font.render('Hello World', 0, (255, 100, 100))
+    # the blit() method, draws items to the surface
+    screen.blit(rendered, (100, 100))
+
+    # the quit event
+    for event in pygame.event.get():
+        if event.type == QUIT:
+            pygame.quit()
+            sys.exit()
+    pygame.display.update()
+```  
 
 #### Core Computer Science Concepts
 
