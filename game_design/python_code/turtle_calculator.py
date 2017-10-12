@@ -20,7 +20,7 @@ if operation == '/':
 	answer = number1 / number2
 	
 print("\nCheck out the turtle window to see the answer!")
-	
+
 frank.write(answer, font = (None, 40, "bold"))
-turtle.done()
+turtle.mainloop()
 
