@@ -16,8 +16,8 @@ The handouts for the following Pygame walkthroughs can be found in the directory
 * [wormy](https://github.com/joetechem/wormy_rasp)  
 * [pong](https://github.com/joetechem/pong/tree/master/pong-pygame/pong)
 * [frogger](https://github.com/joetechem/frogger)
-* [pacman](https://github.com/joetechem/pacman-python-mirror) 
-* [spaceshooter](https://github.com/joetechem/pygame_tutorials) 
+* [pacman](https://github.com/joetechem/pacman-python-mirror)
+* [spaceshooter](https://github.com/joetechem/pygame_tutorials)
 * [alien invasion](https://github.com/joetechem/alien_invasion/tree/master/alien_invade)
 
 ### Introductions
@@ -27,7 +27,7 @@ The handouts for the following Pygame walkthroughs can be found in the directory
 * Grade
 * Experience
   - Any programming/coding experience?  
-  
+
 *note* below is a simple Hello World program conducted with Pygame. Previously, this exercise has not been carried out in previous classes, but will be tested during the Fall 2017 session.  
 
 # OOP  
@@ -79,6 +79,22 @@ while True:
             sys.exit()
     pygame.display.update()
 ```  
+
+### Pygame Walkthrough: [Wormy](https://github.com/joetechem/wormy_rasp)  
+
+Fill in the missing code. Explain dependencies, how we use pygame by `import`, discuss how computers handle and display, or represent colors, by using Red, Green, and Blue values (RGB). The retinas of our eyes have three types of photoreceptor cone cells that respond to frequencies of light, categorized into RGB. Similar to painting, we increase/decrease the amount of the three categories to have the computer represent different colors. After using one of the already defined colors as the background color (in Part Two of missing python code), challenge the class to registers their own unique color as a new variable and use as the background color.  
+
+Check out some of the color representations below:   
+
+| Red |Green|Blue | Color |
+|-------------------------|
+| 0   | 0   | 0   | black |
+| 255 | 255 | 255 | white |
+| 255 | 255 | 0   | yellow|
+| 255 | 130 | 255 | pink  |
+| 146 | 81  | 0   | brown |
+| 157 | 95  | 82  | purple|
+| 140 | 0   | 0   | maroon|  
 
 #### Core Computer Science Concepts
 
