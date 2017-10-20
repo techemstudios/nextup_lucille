@@ -49,3 +49,8 @@ Class notes for Lucille Brown Mondays - Intro to Computer Science
 # 10/16
     # finished calculator (started last week --ended with first condition block)
     # implemented the turtle module
+
+# 10/18
+    # Turtle Graphics Intro
+    # make a right angle
+    # for and while loops
