@@ -7,3 +7,11 @@
         # dependencies
         # RGB values
         # reiterate variables
+
+# 10/24
+    # finish up wormy
+    # review modules/pygame; how comps represent colors
+    # FPS
+    # Debugging
+    # Customize the game
+    

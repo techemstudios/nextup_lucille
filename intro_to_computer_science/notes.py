@@ -54,3 +54,12 @@ Class notes for Lucille Brown Mondays - Intro to Computer Science
     # Turtle Graphics Intro
     # make a right angle
     # for and while loops
+
+# 10/23
+  # Binary number review
+    # focus on 0 and 1 meaning
+  # Gates intro
+    # AND, OR, NOT
+      # how to represent: diagram, truth table, boolean
+  # Simple calculator with turtle
+  
