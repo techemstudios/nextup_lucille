@@ -204,6 +204,27 @@ Finish the calculator program by adding multi-way decision pattern, in other wor
 
 [One way to finish a basic calculator program](https://github.com/techemstudios/nextup_lucille/blob/master/intro_to_computer_science/python_code/calculator.py)  
 
+***  
+
+## Day Four  
+
+### Logic Gates  
+
+Review binary, value of 1 and zero and representations of each: 1 = On, True, Yes, etc.; 0 = Off, False, No, etc.  
+
+Devices that perform basic operation on electrical signals.  
+
+### NOT, AND, OR  
+
+How they operate, three ways we can represent them. Combine gates to form circuits.  
+
+
+***  
+
+## Day Five  
+
+see notes.py  
+
 ### Random Number Game  
 
 #### Binary Search Tree  
@@ -284,9 +305,6 @@ Abstraction Examples:
   - At many restaurants, the names of meals have corresponding numbers.
   - The food prep has been trained to recognize the meal number, not worry about the full name.  
 
-### Logic Gates  
-
-logic gates here.  
 
 ### Write Code like you Write a Story  
 
