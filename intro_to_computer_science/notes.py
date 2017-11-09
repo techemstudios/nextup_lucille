@@ -39,6 +39,7 @@ Class notes for Lucille Brown Mondays - Intro to Computer Science
           b = int(raw_input("give me another number"))
           print a + b
 
+
 # 10/4
   # Had students from Monday's class as well as new ones
   # quick review of monday's content
@@ -46,9 +47,11 @@ Class notes for Lucille Brown Mondays - Intro to Computer Science
   # Started to create simple interactive calculator python program
     # ended with code blocks: 1st condition statment (if user enetered "+")
 
+
 # 10/16
     # finished calculator (started last week --ended with first condition block)
     # implemented the turtle module
+
 
 # 10/18
     # Turtle Graphics Intro
@@ -63,3 +66,27 @@ Class notes for Lucille Brown Mondays - Intro to Computer Science
       # how to represent: diagram, truth table, boolean
   # Simple calculator with turtle
   
+
+# 10/30
+  # pygame: pacman
+
+
+# 11/1
+  # simple command response program
+    # create additional commands, handle the new command(s) with new condition(s)
+      # more multi-way decision patterns
+  # pacman.py contest
+
+
+# 11/8
+  # Simple conditional program (rollercoaster.py)
+  # Binary Search Tree
+    # how computer search through sorted lists efficiently
+    # introduced with 'unplugged' random number game: pick number between 1 and 100
+      # class guessed randomly
+      # ask: what if first guessed a number in the middle of the range? Then again, and so on until guess is correct.
+    # put binary search tree on whiteboard (range: 1 - 15), explaining how it works; nodes, parents,
+    # less than, search left side of parent branch; greater than, search right side of parent branch
+  # put random number game into a py program
+    # have class figure out on their own how to structure the conditional statements
+
