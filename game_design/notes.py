@@ -27,3 +27,10 @@
     # continue where left off with lightbot
     # look into codea for next week
     
+
+# 11/27
+    # Swift Playgrounds
+
+# 11/29
+    # Comp Sci brain teaser (quiz) -did awesome!
+    # Hopscotch intro (more than one way to code)
