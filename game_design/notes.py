@@ -34,3 +34,9 @@
 # 11/29
     # Comp Sci brain teaser (quiz) -did awesome!
     # Hopscotch intro (more than one way to code)
+
+# 12/5
+    # Codea
+
+# 12/12
+    # Hopscotch
