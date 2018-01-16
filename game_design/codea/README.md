@@ -31,7 +31,7 @@ end
 
 Lines that start with two hyphons, `--`, are comments.  
 
-`-- This is a comment`  
+`-- This is a Lua comment`  
 
 Comments are for programmers, so the function of the program is better understood. Think of comments like notes to self, or notes to whoever is working on the program. Comments are ignored by Lua.  
 
@@ -39,7 +39,7 @@ Notice in the `setup()` command there is a function called print(), with the tex
 
 To run your program, select the run (PLAY button) icon at the bottom right. We can see the result under the **Output** window (console) on the left side. Currently, our code does not do much, just prints 'Hello World!'; there is nothing drawn to the big screen on the right.  
 
-Go ahead and tap the space after **Line 2**. A generic keyboard pops up; however, at the top of the keyboard has an extra line of keys, or shortcuts at the top which can be very helpful when writing code. 
+Go ahead and tap the space after **Line 2**. A generic keyboard pops up; however, at the top of the keyboard has an extra line of keys, or shortcuts at the top which can be very helpful when writing code.  
 
 On **Line 2**, create a comment that has your name, hit enter, then make another comment that says what the program does. Here's an example:  
 
